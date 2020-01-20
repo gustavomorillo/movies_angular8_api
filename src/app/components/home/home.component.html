@@ -1,0 +1,26 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-3">MoviesApp</h1>
+      <p class="lead">Movies App using themoviedb.org API</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <br>
+  
+    <h1>In Theaters</h1>
+    <hr>
+
+
+
+    <app-galeria [peliculas]="populares" titulo="Popular movies"></app-galeria>
+
+    <br>
+  
+    <app-galeria [peliculas]="ninos" titulo="Kids movies"></app-galeria>
+
+  <br>
+  <app-galeria [peliculas]="cartelera" titulo="Week"></app-galeria>
+  
+  </div>
+  
